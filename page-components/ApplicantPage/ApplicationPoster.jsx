@@ -113,8 +113,8 @@ const ApplicationPosterInner = ({ user }) => {
 
   const qualification = [
     { label: 'Qualification Type', value: '' },
-    { label: 'BSC', value: '' },
-    { label: 'NCE', value: '' },
+    { label: 'BSC', value: 'BSC' },
+    { label: 'NCE', value: 'NCE' },
   ];
 
   const idtype = [

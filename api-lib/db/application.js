@@ -59,7 +59,8 @@ export async function insertApplication(db, {  creatorId, firstname,
     certificatefile,
     idtype,
     idnumber,
-    idfile,   }) {
+    idfile, certificatefile: certificateFilePath,
+    idfile: idFilePath,  }) {
   const application = {
     
     creatorId,
@@ -80,6 +81,8 @@ export async function insertApplication(db, {  creatorId, firstname,
     idtype,
     idnumber,
     idfile,
+    certificatefile: certificateFilePath,
+    idfile: idFilePath,
     
     createdAt: new Date(),
   };
