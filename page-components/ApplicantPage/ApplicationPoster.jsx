@@ -36,6 +36,7 @@ const ApplicationPosterInner = ({ user }) => {
   const idnumberRef = useRef();
   const idfileRef = useRef();
   
+  
 
   const [isLoading, setIsLoading] = useState(false);
 
